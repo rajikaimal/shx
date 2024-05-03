@@ -1,0 +1,27 @@
+{
+  "name": "shx",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "Commands with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajikaimal/shx.git"
+  },
+  "keywords": [
+    "Worker",
+    "AI",
+    "CLI"
+  ],
+  "author": "rajikaimal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajikaimal/shx/issues"
+  },
+  "homepage": "https://github.com/rajikaimal/shx#readme"
+}
