@@ -1,6 +1,8 @@
 # shx
 
-Command with ease
+🏭 Command with ease
+
+https://github.com/rajikaimal/shx/assets/8940086/d8f5bdee-d8df-4ab5-86f4-f5f04e69fd53
 
 ## Worker AI
 
