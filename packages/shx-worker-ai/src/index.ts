@@ -96,7 +96,8 @@ $ npm start
 User input: 'how to run a go program'
 $ go run main.go
 
-Ouptut commands should start with '$ '`,
+Each command should start with '$ '
+If multiple commands are present they should start with a new line.`,
 				},
 				{
 					role: 'user',
