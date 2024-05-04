@@ -6,7 +6,7 @@ https://github.com/rajikaimal/shx/assets/8940086/d8f5bdee-d8df-4ab5-86f4-f5f04e6
 
 ## Worker AI
 
-- Cloudflare Worker AI has a [generous free tier](https://developers.cloudflare.com/workers-ai/platform/limits/) to support an invdivudal use case
+- Cloudflare Worker AI has a [generous free tier](https://developers.cloudflare.com/workers-ai/platform/limits/) to support an invdivudal use cases
 - Clone the repository
 - `$ cd packages/shx-worker-ai`
 - You need a [Cloudflare account](https://www.cloudflare.com/) to setup a Worker AI
