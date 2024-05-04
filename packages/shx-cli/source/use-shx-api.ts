@@ -4,7 +4,7 @@ import {readConfigFile} from './fs.js';
 export const useShxApi = ({message}: {message: string | undefined}) => {
 	const [reply, setReply] = useState<string[]>([]);
 
-	const callWokerAI = async () => {
+	const callWorkerAI = async () => {
 		try {
 			const {url, authToken} = await readConfigFile();
 
@@ -56,5 +56,5 @@ export const useShxApi = ({message}: {message: string | undefined}) => {
 		}
 	};
 
-	return {reply, callWokerAI};
+	return {reply, callWorkerAI};
 };

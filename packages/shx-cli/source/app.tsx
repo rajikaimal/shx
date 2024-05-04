@@ -16,7 +16,7 @@ type Props = {
 
 export default function App({config, message}: Props) {
 	const {url, authToken} = config;
-	const {reply, callWokerAI} = useShxApi({message});
+	const {reply, callWorkerAI} = useShxApi({message});
 	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {
@@ -26,7 +26,7 @@ export default function App({config, message}: Props) {
 			setIsLoading(false);
 			console.log('\nSetup successful!');
 		} else {
-			callWokerAI();
+			callWorkerAI();
 		}
 	}, [url, authToken, message]);
 
