@@ -23,6 +23,8 @@ export default function App({config, message}: Props) {
 		if (url && authToken) {
 			// setup config at $HOME/.shxrc
 			setup(url, authToken);
+			setIsLoading(false);
+			console.log('\nSetup successful!');
 		} else {
 			callWokerAI();
 		}
