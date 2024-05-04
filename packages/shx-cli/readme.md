@@ -19,5 +19,5 @@ $ shx --help
     $ docker stop <container_id>
 
   To setup
-	  $ shx --url="<worker_uri>" authToken="username:password"
+    $ shx --url="<worker_uri>" authToken="username:password"
 ```
